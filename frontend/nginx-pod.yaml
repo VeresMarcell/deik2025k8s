@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+    app: nginx
+  name: nginx
+spec:
+  containers:
+  - image: nginx-demo
+    name: nginx
+    ports:
+    - containerPort: 8080
+    imagePullPolicy: IfNotPresent
+  restartPolicy: Always
+  nodeSelector:
+    type: worker
+
