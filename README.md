@@ -1,12 +1,13 @@
 # README
 
-### DE-IK Szakmai Nap K8S bemutató Demo
-A Kubernetes alap koncepciók szemléltetése céljával készült egyszerű kis demo program.
-Python-ban írt flask backend-del és egy HTML-t hostoló, valamint reverse-proxy-ként működő nginx-el.
-Bejövő forgalomért egy nginx-ingress-controller felel.
-A bootstrap.sh script repo-ban való futtatásával az egész cluster és FE/BE/Ingress elindítható
+### DE-IK Professional Days K8S Demo
+Demo Application for Illustrating Basic Kubernetes Concepts
+This is a simple demo application created to demonstrate fundamental Kubernetes concepts.
+It consists of a Flask backend written in Python, and an Nginx server that hosts a static HTML page and acts as a reverse proxy.
+Incoming traffic is handled by an nginx-ingress-controller.
+By running the bootstrap.sh script located in the repository, the entire cluster—including the frontend, backend, and ingress—can be launched. It is vital that the bootstrap script is ran from the repository.
 
 ## Prerequisites:
-- Docker ([Install Docker Engine on Ubuntu](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository)) - install from apt repository recommended, snap package nem működik
+- Docker ([Install Docker Engine on Ubuntu](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository)) - install from apt repository recommended, snap package will not work
 - Kind ([Kind - Quick Start](https://kind.sigs.k8s.io/docs/user/quick-start/)) - linuxbrew install recommended 
-- kubectl ([Install and Set Up kubectl on Linux](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/)) - Install kubectl binary with curl on Linux 
+- kubectl ([Install and Set Up kubectl on Linux](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/)) - Install kubectl binary with curl on Linux recommended
