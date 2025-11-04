@@ -11,3 +11,4 @@ By running the bootstrap.sh script located in the repository, the entire cluster
 - Docker ([Install Docker Engine on Ubuntu](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository)) - install from apt repository recommended, snap package will not work
 - Kind ([Kind - Quick Start](https://kind.sigs.k8s.io/docs/user/quick-start/)) - linuxbrew install recommended 
 - kubectl ([Install and Set Up kubectl on Linux](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/)) - Install kubectl binary with curl on Linux recommended
+- 
