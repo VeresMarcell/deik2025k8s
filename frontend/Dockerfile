@@ -9,6 +9,7 @@ COPY nginx.conf /etc/nginx/nginx.conf
 
 # Copy custom HTML file
 COPY index.html /usr/share/nginx/html/index.html
+COPY index_background.png /usr/share/nginx/html/index_background.png
 
 # Expose port 8080
 EXPOSE 8080
